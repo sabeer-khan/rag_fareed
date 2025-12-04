@@ -1,3 +1,14 @@
+Retrieval Augmented Generation (RAG) is a design pattern that augments the capabilities of a chat completion model like ChatGPT by adding an information retrieval step, incorporating your proprietary enterprise content for answer formulation. For an enterprise solution, it's possible to fully constrain generative AI to your enterprise content.
+
+The decision about which information retrieval system to use is critical because it determines the inputs to the LLM. The information retrieval system should provide:
+
+    Indexing strategies that load and refresh at scale, for all of your content, at the frequency you require.
+
+    Query capabilities and relevance tuning. The system should return relevant results, in the short-form formats necessary for meeting the token length requirements of large language model (LLM) inputs. Query turnaround should be as fast as possible.
+
+    Security, global reach, and reliability for both data and operations.
+
+    Integration with embedding models for indexing, and chat models or language understanding models for retrieval.
 
 What is Retrieval-Augmented Generation?
 Retrieval-Augmented Generation (RAG) optimizes the output of a large language model so that it references an authoritative knowledge base outside its training data sources before generating an answer. Large language models (LLMs) are trained on massive datasets and use billions of parameters to generate original outputs for tasks such as answering questions, translating languages, and completing sentences. RAG extends the already powerful capabilities of LLMs to specific domains or an organization's internal knowledge base without requiring the model to be retrained. It is a cost-effective approach to improving LLM results so that they remain relevant, accurate, and useful across different contexts.
